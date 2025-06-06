@@ -1,37 +1,10 @@
 import cliente_db;
 
-"""
-Propósito del sistema:
-El objetivo es realizar un sistema que permita gestionar las ventas de pasajes de una aerolínea registrando los clientes, destinos y ventas realizadas.
-"""
-
-"""
-Cómo instalar y ejecutar el programa:
-Para ejecutar el programa es necesario abrir el archivo main.py con Visual Studio Code y ejecutar el codigo.
-"""
-
-"""
-Datos de los integrantes del grupo:
---------------------------------------------
-| Apellido | Nombre           | DNI        |
---------------------------------------------
-| Barilla  | Mauricio         | 36.357.667 |
-| Carranza | Nazarena         | 43.693.498 |
-| Peredo   | Jennifer         | 40.572.933 |
-| Perez    | María Laura      | 23.778.620 |
-| Rodenas  | Gabriel Elías    | 36.356.976 |
-| Tissera  | Guillermo Adrián | 35.260.232 |
---------------------------------------------
-"""
-
-
-
-
 # indica el nombre del sistema
 nombre_sistema = 'AirHappy'
 
 print('-----------------------------')
-print(f'Vienvenido al sistema {nombre_sistema} - Sistema de Gestión de Pasajes')
+print(f'Bienvenido al sistema {nombre_sistema} - Sistema de Gestión de Pasajes')
 
 fin_programa = 'no' # indica si el programa tiene que finalizar
 continuar_abm_cliente = 'no' # indica si tiene que seguir mostrando el menu de 'Gestionar Clientes'
