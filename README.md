@@ -21,8 +21,14 @@ El objetivo es realizar un sistema que permita gestionar las ventas de pasajes d
 2) Abrir el archivo main.py con Visual Studio Code y ejecutar el codigo.
 
 - Detalle completo de todo lo que hay en el repositorio:
+DER.PNG : imagen de la representacion de la base de datos en un DER (Diagramas de Entidad-Relación)
 db.sql : contiene los DDL y DML para la generacion de la base de datos
 README.md : contiene una breve descripcion del proyecto
-conexion_db.py : crea la conexion entre visual studio code y la base de datos.
 main.py : contiene el codigo principal de la aplicacion, es el que se usa para ejecutar el programa.
-cliente_db.py : contiene los DML para la tabla cliente de la base e datos
+db: carpeta que contiene los siguientes archivos:
+ - conexion_db.py : crea la conexion entre visual studio code y la base de datos.
+ - cliente_db.py : contiene los DML para la tabla cliente de la base de datos
+ - ciudad_db.py : contiene los DML para la tabla ciudad de la base de datos
+ - destino_db.py : contiene los DML para la tabla destino de la base de datos
+ - pais_db.py : contiene los DML para la tabla pais de la base de datos
+ - venta_db.py : contiene los DML para la tabla venta de la base de datos
