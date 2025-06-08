@@ -12,9 +12,7 @@ def pais_listar():
 
     # obtiene el resultado
     resultado = cursor.fetchall()
-
-    # confirmar los cambios
-    conexion.commit()
+    
     # cerrar conexion
     cursor.close()
     conexion.close()
