@@ -98,7 +98,7 @@ def venta_anular_comprobar(id_venta: int):
     # tiempo permitido para eliminar la venta despues de la compra - expresado en segundo
     tiempo_permitido = 30
 
-    resultado = fecha + datetime.timedelta(seconds = tiempo_permitido) < datetime.datetime.now()
+    resultado = fecha[0] + datetime.timedelta(seconds = tiempo_permitido) > datetime.datetime.now()
 
     # confirmar los cambios
     conexion.commit()

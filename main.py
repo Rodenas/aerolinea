@@ -391,9 +391,9 @@ while continuar_programa == 'si':
                         # anular la venta
                         venta_db.venta_anular(id_venta)
                         # se le indica al usuario que la venta ingresado fue dado de baja
-                        print(f'La venta {id_venta} fue dada de baja bajo el reglamente que dispone la Ley N° Ley 24.240')
+                        print(f'La venta {id_venta} fue dada de baja bajo el reglamente que dispone la Ley N° Ley 24.240.')
                     else:
-                        print(f'La venta {id_venta} no puede darse de baja por que ya paso la fecha limite segun la Ley N° 24.240')
+                        print(f'La venta {id_venta} no puede darse de baja por que ya paso la fecha limite segun la Ley N° 24.240. Deberá concurrir a ventanilla para anular la venta de manera presencial.')
                 else:
                     print(f'La venta {id_venta} no existe o ya esta anulada')
                 print('-----------------------------')
@@ -409,7 +409,7 @@ while continuar_programa == 'si':
                 opcion_escogida = 0
                 break
 
-    # mostrar menu Acerca del sistema
+    # mostrar menu Acerca del Sistema
     if opcion_escogida == 4:
         ######################
         # acerca del sistema #
